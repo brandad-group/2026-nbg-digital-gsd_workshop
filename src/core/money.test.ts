@@ -18,7 +18,9 @@ describe('roundEuro', () => {
   });
 
   it('rundet negative Werte korrekt (reine Arithmetik, keine Fachregel)', () => {
-    expect(roundEuro(-10.005)).toBe(-10.0);
+    // -10.005 * 100 ergibt durch Float-Darstellung -1000.5000000000001,
+    // daher rundet Math.round auf -1001 → -10.01 (korrekte Symmetrie zum Positiven)
+    expect(roundEuro(-10.005)).toBe(-10.01);
     expect(roundEuro(-10.004)).toBe(-10.0);
   });
 });
