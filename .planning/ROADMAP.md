@@ -29,7 +29,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: Berechnungskern (Typen, Berechnung, Validierung) + Vitest-Unit-Tests
+- [ ] 01-01-PLAN.md — Berechnungskern: Typen, Geld-Rundung, Fachregel-Validierung, Greedy-Settlement + Vitest-Unit-Tests
 
 ### Phase 2: Erfassung & Oberfläche
 **Goal**: Eine minimale Vanilla-DOM-Oberfläche auf einer einzigen Seite, über die Nutzer Personen und Ausgaben erfassen und entfernen, den Berechnungskern anbinden und das Abrechnungsergebnis verständlich angezeigt bekommen.
