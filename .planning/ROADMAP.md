@@ -13,7 +13,7 @@ PartyPayback liefert in zwei zusammenhängenden Bausteinen: Zuerst entsteht der 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Berechnungskern** - Framework-unabhängige Ausgleichsrechnung inkl. Fachregel-Validierung und Vitest-Unit-Tests
+- [x] **Phase 1: Berechnungskern** - Framework-unabhängige Ausgleichsrechnung inkl. Fachregel-Validierung und Vitest-Unit-Tests (completed 2026-06-29)
 - [ ] **Phase 2: Erfassung & Oberfläche** - Eine Vanilla-DOM-Seite zum Erfassen von Personen/Ausgaben, die den Kern anbindet und das Ergebnis anzeigt
 
 ## Phase Details
@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 Plans:
 
-- [ ] 01-01-PLAN.md — Berechnungskern: Typen, Geld-Rundung, Fachregel-Validierung, Greedy-Settlement + Vitest-Unit-Tests
+- [x] 01-01-PLAN.md — Berechnungskern: Typen, Geld-Rundung, Fachregel-Validierung, Greedy-Settlement + Vitest-Unit-Tests
 
 ### Phase 2: Erfassung & Oberfläche
 
@@ -61,5 +61,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Berechnungskern | 0/1 | Not started | - |
+| 1. Berechnungskern | 1/1 | Complete   | 2026-06-29 |
 | 2. Erfassung & Oberfläche | 0/1 | Not started | - |
