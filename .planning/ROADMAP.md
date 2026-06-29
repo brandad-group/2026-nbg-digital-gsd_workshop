@@ -47,7 +47,6 @@ Plans:
   3. Ungültige Eingaben (negativer Betrag, fehlende zahlende Person, weniger als zwei Personen) werden für den Nutzer nachvollziehbar abgewiesen.
 
 **Plans**: 1 plan
-
 Plans:
 
 - [ ] 02-01-PLAN.md — Vanilla-DOM-Seite: HTML/CSS-Card-Layout, In-Memory-State, Kern-Anbindung, Live-Ergebnis-Anzeige und Validierungsfeedback
