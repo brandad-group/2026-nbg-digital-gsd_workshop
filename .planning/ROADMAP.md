@@ -50,7 +50,7 @@ Plans:
 
 Plans:
 
-- [ ] 02-01: Vanilla-DOM-Seite (Erfassung, Kern-Anbindung, Ergebnis-Anzeige, Validierungsfeedback)
+- [ ] 02-01-PLAN.md — Vanilla-DOM-Seite: HTML/CSS-Card-Layout, In-Memory-State, Kern-Anbindung, Live-Ergebnis-Anzeige und Validierungsfeedback
 
 **UI hint**: yes
 
