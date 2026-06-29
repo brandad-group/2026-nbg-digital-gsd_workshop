@@ -46,4 +46,18 @@ Source: `docs/plans/PRD_MVP_PartyPaypack.md`. V1-Scope für die Workshop-Demo.
 
 | REQ-ID | Phase |
 |--------|-------|
-| _(wird vom Roadmap-Schritt gefüllt)_ | |
+| PERS-01 | Phase 2 |
+| PERS-02 | Phase 2 |
+| PERS-03 | Phase 1 |
+| EXP-01 | Phase 2 |
+| EXP-02 | Phase 1 |
+| EXP-03 | Phase 2 |
+| EXP-04 | Phase 1 |
+| CALC-01 | Phase 1 |
+| CALC-02 | Phase 1 |
+| CALC-03 | Phase 1 |
+| CALC-04 | Phase 1 |
+| CALC-05 | Phase 1 |
+| UI-01 | Phase 2 |
+| UI-02 | Phase 2 |
+| UI-03 | Phase 2 |
