@@ -14,7 +14,7 @@ PartyPayback liefert in zwei zusammenhängenden Bausteinen: Zuerst entsteht der 
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Berechnungskern** - Framework-unabhängige Ausgleichsrechnung inkl. Fachregel-Validierung und Vitest-Unit-Tests (completed 2026-06-29)
-- [ ] **Phase 2: Erfassung & Oberfläche** - Eine Vanilla-DOM-Seite zum Erfassen von Personen/Ausgaben, die den Kern anbindet und das Ergebnis anzeigt
+- [x] **Phase 2: Erfassung & Oberfläche** - Eine Vanilla-DOM-Seite zum Erfassen von Personen/Ausgaben, die den Kern anbindet und das Ergebnis anzeigt (completed 2026-06-29)
 
 ## Phase Details
 
@@ -46,10 +46,10 @@ Plans:
   2. Nutzer sieht Gesamtkosten, fairen Anteil, Saldo pro Person und die vorgeschlagenen Ausgleichszahlungen verständlich angezeigt.
   3. Ungültige Eingaben (negativer Betrag, fehlende zahlende Person, weniger als zwei Personen) werden für den Nutzer nachvollziehbar abgewiesen.
 
-**Plans**: 1 plan
+**Plans**: 1/1 plans complete
 Plans:
 
-- [ ] 02-01-PLAN.md — Vanilla-DOM-Seite: HTML/CSS-Card-Layout, In-Memory-State, Kern-Anbindung, Live-Ergebnis-Anzeige und Validierungsfeedback
+- [x] 02-01-PLAN.md — Vanilla-DOM-Seite: HTML/CSS-Card-Layout, In-Memory-State, Kern-Anbindung, Live-Ergebnis-Anzeige und Validierungsfeedback
 
 **UI hint**: yes
 
@@ -61,4 +61,4 @@ Phases execute in numeric order: 1 → 2
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Berechnungskern | 1/1 | Complete   | 2026-06-29 |
-| 2. Erfassung & Oberfläche | 0/1 | Not started | - |
+| 2. Erfassung & Oberfläche | 1/1 | Complete   | 2026-06-29 |
