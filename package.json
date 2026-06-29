@@ -1,0 +1,25 @@
+{
+  "name": "party-payback",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8"
+  }
+}

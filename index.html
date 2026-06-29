@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PartyPayback</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="app-header">
+        <h1>PartyPayback</h1>
+        <p class="app-subtitle">Gemeinsame Ausgaben fair aufteilen</p>
+      </header>
+
+      <!-- Personen -->
+      <section class="card">
+        <h2>Personen</h2>
+        <form id="person-form" class="input-form">
+          <div class="form-row">
+            <input
+              id="person-name"
+              type="text"
+              placeholder="Name"
+              required
+              autocomplete="off"
+              class="input-text"
+            />
+            <button type="submit" class="btn btn-primary">Hinzufügen</button>
+          </div>
+        </form>
+        <div id="person-error" class="error-message" role="alert"></div>
+        <ul id="person-list" class="item-list"></ul>
+      </section>
+
+      <!-- Ausgaben -->
+      <section class="card">
+        <h2>Ausgaben</h2>
+        <form id="expense-form" class="input-form">
+          <div class="form-row form-row--stacked">
+            <select id="expense-payer" required class="input-select">
+              <option value="">Zahlende Person wählen …</option>
+            </select>
+            <input
+              id="expense-description"
+              type="text"
+              placeholder="Beschreibung"
+              required
+              autocomplete="off"
+              class="input-text"
+            />
+            <div class="form-row form-row--inline">
+              <input
+                id="expense-amount"
+                type="number"
+                min="0"
+                step="0.01"
+                placeholder="Betrag (€)"
+                required
+                class="input-number"
+              />
+              <button type="submit" class="btn btn-primary">Hinzufügen</button>
+            </div>
+          </div>
+        </form>
+        <div id="expense-error" class="error-message" role="alert"></div>
+        <ul id="expense-list" class="item-list"></ul>
+      </section>
+
+      <!-- Ergebnis -->
+      <section class="card">
+        <h2>Abrechnung</h2>
+        <div id="result"></div>
+      </section>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
